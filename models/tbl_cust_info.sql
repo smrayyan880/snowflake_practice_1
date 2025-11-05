@@ -1,0 +1,6 @@
+{{
+    config(
+        materialized='table'
+    )
+}}
+select C_CUSTKEY,C_NAME,C_ADDRESS from dbt_customers.dbt_schema.tbl_customers limit 200
