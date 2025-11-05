@@ -1,0 +1,7 @@
+sources:
+  - name: src1
+    database: dbt_customers
+    schema: dbt_schema
+    tables:
+      - name: tbl_customers
+      - name: tbl_nation
